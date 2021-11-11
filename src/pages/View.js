@@ -1,4 +1,5 @@
 import React from 'react';
+//View Script
 const View = () =>{
     return(
         <div>

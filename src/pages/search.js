@@ -3,6 +3,8 @@ import database from '../firebase';
 import { useLocation, Link } from 'react-router-dom';
 import { onValue, ref, query, equalTo, orderByChild,remove } from '@firebase/database';
 import { toast } from 'react-toastify';
+
+//Search Script
 const Search = () =>{
     const db = query(ref(database, 'users'), orderByChild("studID"));
 

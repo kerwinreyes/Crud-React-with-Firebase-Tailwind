@@ -2,7 +2,7 @@ import React , {useState, useEffect } from 'react';
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { toast } from 'react-toastify';
 
-
+//Login script
 const Login = () =>{
     const [user,setUser] = useState('');
     const [email,setEmail] = useState('');
