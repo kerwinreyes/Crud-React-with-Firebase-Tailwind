@@ -31,7 +31,7 @@ const Header = ({logout}) =>{
                 </Link>
         <button className="p-4 hover:text-gray-700 active:text-gray-700" onClick={logout}> SIGN OUT </button>
             <form className="p-4 hover:text-gray-700 active:text-gray-700 inline" onSubmit={handleSubmit} >
-            <input type="text" className="border border-gray-400 p-3 rounded-lg outline-none focus:border-blue-500" placeholder="Search name..." onChange={(e)=> setSearch(e.target.value)}
+            <input type="text" className="border border-gray-400 p-3 rounded-lg outline-none focus:border-blue-500" placeholder="Search Student Number..." onChange={(e)=> setSearch(e.target.value)}
             value={search}
             /></form>
         </div>
