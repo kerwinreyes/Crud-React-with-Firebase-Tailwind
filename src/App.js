@@ -5,6 +5,7 @@ import {useHistory, useParams} from 'react-router-dom';
 import Home from './pages/home';
 import AddEdit from './pages/AddEdit';
 import View from './pages/View';
+import Search from './pages/search';
 import auth from './firebase-config';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
@@ -90,6 +91,9 @@ function App() {
     </Route>
     <Route exact path='/view/:id'>
       <View/>
+    </Route>
+    <Route exact path='/search'>
+      <Search/>
     </Route>
     </Switch>
       </div>
